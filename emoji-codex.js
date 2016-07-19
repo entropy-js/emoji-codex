@@ -885,4 +885,4 @@ Codex.prototype[':small_orange_diamond:'] = 0x1F538;
 Codex.prototype[':small_red_triangle:'] = 0x1F53A;
 Codex.prototype[':small_red_triangle_down:'] = 0x1F53B;
 
-modules.export = new Codex();
+module.export = new Codex();
