@@ -1,0 +1,26 @@
+{
+  "name": "emoji-codex",
+  "version": "1.0.0",
+  "description": "Relpaces shortcodes in strings with their Unicode counterparts",
+  "main": "emoji-codex.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/entropy-js/emoji-codex.git"
+  },
+  "keywords": [
+    "emoji",
+    "unicode",
+    "emoticon",
+    "codex",
+    "translate"
+  ],
+  "author": "@entropyJS <cryptocastles@gmail.com> (https://twitter.com/entropyJS)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/entropy-js/emoji-codex/issues"
+  },
+  "homepage": "https://github.com/entropy-js/emoji-codex#readme"
+}
