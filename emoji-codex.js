@@ -1,5 +1,6 @@
 //emoji-codex:Translates emoji into unicode counterparts
 //Author: @entropyjs
+//@version: 1.0.1
 
 var Codex = function() {};
 
@@ -27,7 +28,15 @@ Codex.prototype.translate = function(emoji_str) {
         //See if emoji exists and if so, replace it
         
         var emoji = Codex.prototype[substr];
-        var unicode = String.fromCodePoint(emoji);
+        var unicode = ""; // = String.fromCodePoint(emoji);
+        if (emoji.isArray()) {
+           for (var i = 0; i < emoji.length; i++) {
+               unicode += String.fromCodePoint(emoji[i]);
+           }
+        }  else {
+            unicode = String.fromCodePoint(emoji);
+        }
+          
         
         if (emoji !== undefined) {
           emoji_str = emoji_str.replace(substr, unicode);
