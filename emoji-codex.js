@@ -1,6 +1,6 @@
 //emoji-codex:Translates emoji into unicode counterparts
 //Author: @entropyjs
-//@version: 1.0.1
+//@version: 1.0.2
 
 var Codex = function() {};
 
@@ -894,4 +894,4 @@ Codex.prototype[':small_orange_diamond:'] = 0x1F538;
 Codex.prototype[':small_red_triangle:'] = 0x1F53A;
 Codex.prototype[':small_red_triangle_down:'] = 0x1F53B;
 
-module.export = new Codex();
+module.exports = new Codex();
