@@ -1,6 +1,6 @@
 //emoji-codex:Translates emoji into unicode counterparts
 //Author: @entropyjs
-//@version: 1.0.2
+//@version: 1.0.3
 
 var Codex = function() {};
 
@@ -29,7 +29,7 @@ Codex.prototype.translate = function(emoji_str) {
         
         var emoji = Codex.prototype[substr];
         var unicode = ""; // = String.fromCodePoint(emoji);
-        if (emoji.isArray()) {
+        if (emoji.constructor === Array) {
            for (var i = 0; i < emoji.length; i++) {
                unicode += String.fromCodePoint(emoji[i]);
            }

@@ -1,6 +1,6 @@
 {
   "name": "emoji-codex",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Relpaces shortcodes in strings with their Unicode counterparts",
   "main": "emoji-codex.js",
   "scripts": {
